@@ -1,6 +1,19 @@
 from django.shortcuts import render
 
 # Create your views here.
+def principal(request):
+    return render(request,'menu/principal.html')
+
+def samsung(request):
+    return render(request,'menu/samsung.html')
+
+def xiaomi(request):
+    return render(request,'menu/xiaomi.html')
+
+
+
+
+
 def index(request):
     return render(request,'menu/index.html')
 
