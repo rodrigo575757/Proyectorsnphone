@@ -1,0 +1,62 @@
+body{
+    font-family: "Aleo variant0", Tofu;
+    background-color: white;
+}
+.ajustar1{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.textoedit{
+    text-decoration: none;
+    color: #F43435;
+    text-transform: uppercase;
+    font-size: 13px;
+    
+}
+    
+.wasa{
+    display: inline-block;
+    color: white;
+    line-height: 2px;
+    
+}
+.num{
+    display: block;
+    color: white;
+    line-height: 10px;
+    margin-left: 40px;
+}
+.aln{
+    text-align: center;
+    
+}
+.carro{
+    display: inline-block;
+    align-items: center;
+    background-color: #cac1c1;
+    margin: 0px auto;
+}
+.texto1{
+    color: #333131;
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+.imagen{
+    margin-top: 40px;
+}
+.boton{
+    display: inline-block;
+    padding: 20px;
+    background: #F43435;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+
+}
+.boton:hover{
+    background-color: #f76e6e;
+    color: white;
+    text-decoration: none;
+}

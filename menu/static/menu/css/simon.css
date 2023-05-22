@@ -1,0 +1,101 @@
+body{
+    font-family: "Aleo variant0", Tofu !important;
+    background-color: white;
+}
+.ajustar1{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.textoedit{
+    text-decoration: none;
+    color: #F43435;
+    text-transform: uppercase;
+    font-size: 13px;
+    
+}
+.wasa{
+    display: inline-block;
+    color: white;
+    line-height: 2px;
+    
+}
+.num{
+    display: block;
+    color: white;
+    line-height: 10px;
+    margin-left: 40px;
+}
+
+
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+
+.btnbtn-success{
+    color:white;
+    background-color: #f44336;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+    text-decoration: none ;
+}
+  
+.btnbtn-success:hover{
+    color: white;
+}
+
+  .ti{
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 20px;
+    
+}
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+    margin-top: -17px;
+    font-size: 18px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    
+  }
