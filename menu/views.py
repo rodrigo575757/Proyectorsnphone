@@ -8,7 +8,25 @@ def samsung(request):
     return render(request,'menu/samsung.html')
 
 def xiaomi(request):
-    return render(request,'menu/xiaomi.html')
+    return render(request,'menu/xiaomi.html')    
+
+def micuenta(request):
+    return render(request,'menu/micuenta.html')
+
+def Samsung Galaxy S10(request):
+    return render(request,'menu/Samsung Galaxy S10.html')
+
+def Xiaomi Redmi Note 12(request):
+    return render(request,'menu/Xiaomi Redmi Note 12.html')   
+
+def cambiarcontra(request):
+    return render(request,'menu/cambiarcontra.html')
+
+def registro(request):
+    return render(request,'menu/registro.html')    
+
+
+
 
 
 

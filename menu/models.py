@@ -10,6 +10,9 @@ class Usuario(models.Model):
     correo = models.CharField(max_length=60)
     direccion = models.CharField(max_length=60)
 
+    def __str__(self) -> str:
+        return self.nombre
+
 class Rol(models.Model): 
     id_rol = models.IntegerField(primary_key=True)
     nombre = models.CharField(max_length=20)
