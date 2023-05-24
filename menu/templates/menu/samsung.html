@@ -25,13 +25,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" style="color: white; font-size: 17px;" aria-current="page" href="{% templates 'menu/principal.html' %}">Inicio</a>
+                    <a class="nav-link active" style="color: white; font-size: 17px;" aria-current="page" href="{% url 'principal' %}">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" style="color: white; font-size: 17px;" href="{% templates 'menu/samsung.html' %}">Samsung</a>
+                    <a class="nav-link" style="color: white; font-size: 17px;" href="{% url 'samsung' %}">Samsung</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" style="color: white; font-size: 17px;" href="{% templates 'menu/xiaomi.html' %}">Xiaomi</a>
+                    <a class="nav-link" style="color: white; font-size: 17px;" href="{% url 'xiaomi' %}">Xiaomi</a>
                   </li>
                 </ul>
                 
@@ -43,12 +43,12 @@
         <div class="row">
           <div class="col-md-6 col-sm-6 ajustar1">
             <img class="" src="{% static 'menu/img/personaa.png' %}"  style="max-width: 35px; width: 100%;" alt="persona"><br>
-            <a class="textoedit" href="{% templates 'menu/micuenta.html' %}"><b>Ingresar</b> </a>
+            <a class="textoedit" href="{% url 'micuenta' %}"><b>Ingresar</b> </a>
           </div>
 
           <div class="col-md-6 col-sm-6 ajustar1">
             <img class="img1" src="{% static 'menu/img/carroo.png' %}"  style="max-width: 35px; width: 100%;" alt="car"><br>
-            <a class="textoedit" href="{% templates 'menu/carrito.html' %}"> <b>Ver Carro</b> </a>
+            <a class="textoedit" href="{% url 'carrito' %}"> <b>Ver Carro</b> </a>
           </div>
           
           
@@ -63,8 +63,8 @@
                         height="320 "alt="Sin imagen">
                         <h4>Samsung Galaxy A03 </h4>
                         <p class="price"> $199.990</p>
-                        <a href="{% templates 'menu/Samsung Galaxy A03.html' %}"><button class="boton-add">Ver más </button> </a>
-                        <a href="#"><button class="boton-add" href="pago.html">Comprar ahora </button></a>
+                        <a href="{% url 'Samsung_galaxy_a03' %}"><button class="boton-add">Ver más </button> </a>
+                        <a href="#"><button class="boton-add" href="{% url 'pago' %}">Comprar ahora </button></a>
 
 
 
@@ -84,8 +84,8 @@
                         height="330 "alt="Sin imagen">
                         <h4>Samsung Galaxy A22 </h4>
                         <p class="price"> $204.990</p>
-                        <a href="{% templates 'menu/Samsung Galaxy A22.html' %}"><button class="boton-add">Ver más </button> </a>
-                        <button class="boton-add" href="pago.html">Comprar ahora </button></a>
+                        <a href="{% url 'Samsung_galaxy_a22' %}"><button class="boton-add">Ver más </button> </a>
+                        <button class="boton-add" href="{% url 'pago' %}">Comprar ahora </button></a>
 
 
 
@@ -105,8 +105,8 @@
                         height="330 "alt="Sin imagen">
                         <h4>Samsung Galaxy A53 </h4>
                         <p class="price"> $210.490</p>
-                        <a href="{% templates 'menu/Samsung Galaxy A53.html' %}"><button class="boton-add">Ver más </button> </a>
-                        <button class="boton-add" href="pago.html">Comprar ahora </button></a>
+                        <a href="{% url 'Samsung_galaxy_a53' %}"><button class="boton-add">Ver más </button> </a>
+                        <button class="boton-add" href="{% url 'pago' %}">Comprar ahora </button></a>
 
 
 
@@ -126,8 +126,8 @@
                         height="330 "alt="Sin imagen">
                         <h4>Samsung Galaxy A54 </h4>
                         <p class="price"> $210.990</p>
-                        <a href="{% templates 'menu/Samsung Galaxy A54 .html' %}"><button class="boton-add">Ver más </button> </a>
-                        <button class="boton-add" href="pago.html">Comprar ahora </button></a>
+                        <a href="{% url 'Samsung_galaxy_a54' %}"><button class="boton-add">Ver más </button> </a>
+                        <button class="boton-add" href="{% url 'pago' %}">Comprar ahora </button></a>
 
 
 
@@ -147,8 +147,8 @@
                         height="330 "alt="Sin imagen">
                         <h4>Samsung Galaxy A73 </h4>
                         <p class="price"> $249.990</p>
-                        <a href="{% templates 'menu/Samsung Galaxy A73.html' %}"><button class="boton-add">Ver más </button> </a>
-                        <button class="boton-add" href="pago.html">Comprar ahora </button></a>
+                        <a href="{% url 'Samsung_galaxy_a73' %}"><button class="boton-add">Ver más </button> </a>
+                        <button class="boton-add" href="{% url 'pago' %}">Comprar ahora </button></a>
 
 
 
@@ -171,8 +171,8 @@
                         height="330 "alt="Sin imagen">
                         <h4>Samsung Galaxy S23s </h4>
                         <p class="price"> $260.000</p>
-                        <a href="{% templates 'menu/Samsung Galaxy S23s.html' %}"><button class="boton-add">Ver más </button> </a>
-                        <button class="boton-add" href="pago.html">Comprar ahora </button></a>
+                        <a href="{% url 'Samsung_galaxy_s23s' %}"><button class="boton-add">Ver más </button> </a>
+                        <button class="boton-add" href="{% url 'pago' %}">Comprar ahora </button></a>
 
 
 
@@ -193,8 +193,8 @@
                         height="330 "alt="Sin imagen">
                         <h4>Samsung Galaxy Z flip4 </h4>
                         <p class="price"> $270.990</p>
-                        <a href="{% templates 'menu/Samsung Galaxy Z flip4.html' %}"><button class="boton-add">Ver más </button> </a>
-                        <button class="boton-add" href="pago.html">Comprar ahora </button></a>
+                        <a href="{% url 'Samsung_galaxy_z_flip4' %}"><button class="boton-add">Ver más </button> </a>
+                        <button class="boton-add" href="{% url 'pago' %}">Comprar ahora </button></a>
 
 
 
@@ -215,8 +215,8 @@
                         height="330 "alt="Sin imagen">
                         <h4>Samsung Galaxy S10 </h4>
                         <p class="price"> <p class="price"> $249.990</p></p>
-                        <a href="{% templates 'menu/Samsung Galaxy S10.html' %}"><button class="boton-add">Ver más </button> </a>
-                        <a ><button class="boton-add" href="pago.html">Comprar ahora </button></a>
+                        <a href="{% url 'Samsung_galaxy_s10' %}"><button class="boton-add">Ver más </button> </a>
+                        <a ><button class="boton-add" href="{% url 'pago' %}">Comprar ahora </button></a>
 
 
 
